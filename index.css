@@ -1,0 +1,109 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #FBA834;
+    border-bottom: solid 1px #0000004a;
+}
+
+.navbar ul {
+    max-width: 1500px;
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.navbar ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+#BeTravelLink {
+    margin-right: auto;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#logintBtn {
+    background-color: #000;
+    color: #FBA834;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.secciones ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #fff;
+    align-items: center;
+    list-style: none;
+}
+
+.secciones ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+.secciones ul a:hover {
+    transition: 0.15s;
+    background-color: #cdcdcd;
+}
+
+#apartadosNavbar:hover {
+    transition: 0.25s;
+    box-shadow: 0 2px 0 #000;
+}
+
+.presentacion {
+    margin: 0;
+    padding: 0;
+    background-image: url(fotos/PaisajeGrecia2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.presentacionOpaco {
+    margin: 0;
+    padding: 0;
+    background-color: #0000002c;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.cabecera {
+    background-color: #387ADF;
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecera span{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
