@@ -204,7 +204,7 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
     justify-content:center;
 }
 
@@ -215,22 +215,8 @@ body {
     height: 400px;
     padding: 5px;
     border-radius: 15px;
-    opacity: 0; /* Inicialmente, las tarjetas estarán ocultas */
-    transform: translateY(50px); /* Desplazamos las tarjetas hacia abajo */
-    transition: opacity 5s ease, transform 0.5s ease;
 }
-.tarjeta:nth-child(1):nth-last-child(9), /* Cambia el número 9 al número total de tarjetas en tu diseño */
-.tarjeta:nth-child(2):nth-last-child(8),
-.tarjeta:nth-child(3):nth-last-child(7),
-.tarjeta:nth-child(4):nth-last-child(6),
-.tarjeta:nth-child(5):nth-last-child(5),
-.tarjeta:nth-child(6):nth-last-child(4),
-.tarjeta:nth-child(7):nth-last-child(3),
-.tarjeta:nth-child(8):nth-last-child(2),
-.tarjeta:nth-child(9):nth-last-child(1) {
-    opacity: 1;
-    transform: translateY(0);
-}
+
 .tarjeta img{
     width: 360px;
     height: 270px;
@@ -241,8 +227,6 @@ body {
 footer{
     background-color: #333A73;
 }
-
-
 
 
 @media screen and (max-width: 650px){
@@ -265,5 +249,24 @@ footer{
     .secciones ul a{
         width: 150px;
         margin-bottom: 0.3rem;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    .contendorTarjetas{
+        max-width: 760px;
+        margin: auto;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 820px){
+    .contendorTarjetas{
+        max-width: 400px;
+        margin: auto;
+        justify-content: center;
+    }
+    #tituloViaje{
+        justify-content: center;
     }
 }
