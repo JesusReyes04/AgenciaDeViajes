@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            display: flex;
+        }
+
+        .div-hover {
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            /* Cambia esto por el color que desees */
+            margin: 5px;
+            transition: filter 0.3s ease;
+        }
+
+        .div-hover:hover {
+            filter: none;
+            /* Revertimos el filtro en el elemento sobre el que se hace hover */
+        }
+
+        .contenedor:hover .div-hover:not(:hover) {
+            filter: saturate(50%);
+            /* Aplicamos el filtro de saturación a los elementos que no están siendo apuntados por el cursor */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+        <div class="div-hover"></div>
+    </div>
+</body>
+
+</html>
