@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        #contenedorCajitas{
+            max-width: fit-content;
+            margin: auto;
+            flex-wrap: wrap;
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+            background-color: green;
+        }
+        #c1{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+        #c2{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            
+        }
+        #c3{
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+        }
+        .cajitas{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="contenedorCajitas">
+        <div id="c1">
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+        </div>
+        <div id="c2">
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+        </div>
+        <div id="c3">
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+            <div class="cajitas"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -212,7 +212,7 @@ body {
     box-sizing: border-box;
     background-color: #fff;
     width: 370px;
-    height: 400px;
+    height: 360px;
     padding: 5px;
     border-radius: 15px;
 }
@@ -234,6 +234,12 @@ body {
     height: 270px;
     overflow: hidden;
     border-radius: 15px;
+}
+
+.tarjeta p{
+    font-size: 2rem;
+    margin: 5px;
+    padding: 0;
 }
 
 footer{
